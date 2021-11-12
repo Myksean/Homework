@@ -5,8 +5,10 @@ let numberOfToppings = 17;
 console.log(pizzaPlace, numberOfToppings);
 console.log(typeof pizzaPlace, typeof numberOfToppings);
 
-console.log(pizzaPlace + " is a fantastic pizza joint that offers " +
-numberOfToppings + " different toppings.")
+let sentence = `${pizzaPlace} is a fantastic pizza joint that offers ${numberOfToppings} different toppings.`
+
+console.log(sentence)
+
 
 if (numberOfToppings < 10) {
   console.log("Quality, not quantity.");
@@ -15,8 +17,8 @@ if (numberOfToppings < 10) {
 }
 
 //Bonus Challenge
-let i = 1
-while (i < numberOfToppings) {
-  i = i + 2
-  console.log(i - 1)
+for (i = 0 ; i < numberOfToppings ; i++) {
+  if (i % 2 == 0) {
+    console.log(i)
+  }
 }
