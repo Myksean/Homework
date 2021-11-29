@@ -1,0 +1,33 @@
+html {
+    background-color:black;
+    color:lavender
+}
+
+.chapter {
+    font-style:italic;
+    color:blue;
+}
+
+#single {
+    font-style:italic;
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    color:green;
+}
+
+li + #dragon {
+    color:lightcoral;
+    font-weight: bold;
+
+}
+
+a {
+    color:lawngreen
+}
+
+a:hover{
+    color:lavender
+}
